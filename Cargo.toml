@@ -1,0 +1,11 @@
+[workspace]
+members = ["decl1", "impl1"]
+
+[package]
+name = "eii-playground"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+decl1 = { path = "decl1" }
+impl1 = { path = "impl1" }
